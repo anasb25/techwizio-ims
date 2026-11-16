@@ -1,0 +1,51 @@
+:root {
+  /* Techwizio logo palette */
+  --tw-purple: #9333ea;
+  --tw-purple-mid: #7c3aed;
+  --tw-purple-deep: #6d28d9;
+  --tw-purple-dark: #4c1d95;
+  --tw-cyan: #06b6d4;
+  --tw-cyan-bright: #22d3ee;
+  --tw-cyan-glow: #67e8f9;
+
+  --tw-gradient: linear-gradient(
+    135deg,
+    var(--tw-purple) 0%,
+    var(--tw-purple-mid) 45%,
+    var(--tw-cyan) 100%
+  );
+  --tw-gradient-soft: linear-gradient(
+    135deg,
+    rgba(147, 51, 234, 0.12) 0%,
+    rgba(6, 182, 212, 0.1) 100%
+  );
+
+  --tw-bg: #f0f0f5;
+  --tw-bg-mesh:
+    radial-gradient(ellipse 80% 50% at 20% -10%, rgba(147, 51, 234, 0.15), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(6, 182, 212, 0.12), transparent),
+    var(--tw-bg);
+
+  --tw-surface: #ffffff;
+  --tw-surface-elevated: rgba(255, 255, 255, 0.92);
+  --tw-text: #12121a;
+  --tw-text-secondary: #52525b;
+  --tw-muted: #71717a;
+  --tw-border: rgba(124, 58, 237, 0.1);
+  --tw-border-strong: rgba(124, 58, 237, 0.22);
+
+  --tw-sidebar: #08080d;
+  --tw-sidebar-border: rgba(147, 51, 234, 0.35);
+
+  --tw-radius-sm: 10px;
+  --tw-radius: 14px;
+  --tw-radius-lg: 18px;
+
+  --tw-shadow-sm: 0 1px 2px rgba(15, 15, 25, 0.04);
+  --tw-shadow: 0 8px 32px rgba(76, 29, 149, 0.08);
+  --tw-shadow-lg: 0 16px 48px rgba(76, 29, 149, 0.12);
+  --tw-glow: 0 0 24px rgba(6, 182, 212, 0.25);
+
+  --tw-font:
+    'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
